@@ -1,4 +1,5 @@
 let heikin = 3.5;
+<<<<<<< HEAD
 console.log(heikin);        // 正しくは heikin
 
 // (2) 関数名のつづり間違い      → エラー発生
@@ -18,6 +19,27 @@ console.log(obj.z);         // メンバー z は存在しない
 
 // (6) 初期化していない変数のメンバー   → エラー発生
 let o=1;
+=======
+console.log(Heikin);        // 正しくは heikin
+
+// (2) 関数名のつづり間違い      → エラー発生
+let h = Math.froor(heikin); // 正しくは floor
+
+// (3) 存在しない配列要素       → undefined　（エラーにならない）
+let ary = ['a', 'b', 'c'];
+console.log(ary[3]);        // 3番目の要素は存在しない
+
+// (4) 小数のインデックス       → undefined　（エラーにならない）
+let i = 3/2;
+console.log(ary[i]);        // i=3/2=1.5 なので ary[1.5] を参照しようとする
+
+// (5) メンバー名の間違い       → undefined （エラーにならない）
+let obj = {x:3, y:7};
+console.log(obj.z);         // メンバー z は存在しない
+
+// (6) 初期化していない変数のメンバー   → エラー発生
+let o;
+>>>>>>> 7d3a84a915871bd5346d2fbb3f0ab4fa721aecbf
 console.log(o.x);           // oは初期化していない
 
 // (7) オブジェクトや配列ではない値のメンバーと要素	→ undefined （エラーにならない）
@@ -30,5 +52,9 @@ let obj2 = {
 	mem1: {x:4, y:9},
 	mem2: "abc"
 };
+<<<<<<< HEAD
 console.log(obj2.mem1.x);   // obj2.mem0 は存在しない. さらにそのメンバー x を参照しようとする
+=======
+console.log(obj2.mem0.x);   // obj2.mem0 は存在しない. さらにそのメンバー x を参照しようとする
+>>>>>>> 7d3a84a915871bd5346d2fbb3f0ab4fa721aecbf
 
