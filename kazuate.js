@@ -22,7 +22,7 @@ function hantei() {
     console.log(kaisu+'回目の予想:'+yoso);
     if (kaisu<5) {
         if(kaisu===3) {
-            console.log('まちがい．残念でした答えは'+kodai+'です．');
+            console.log('まちがい．残念でした答えは'+kotae+'です．');
         } else {
             if(kotae===4) {
                 console.log('正解です．おめでとう!');
