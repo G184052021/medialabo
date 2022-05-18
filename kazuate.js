@@ -1,6 +1,6 @@
 // 答え
 let kotae = Math.floor(Math.random()*10) + 1;
-console.log('答え: ' + kotae);      // デバッグ用
+console.log('答え: (デバッグ用)' + kotae);      // デバッグ用
 
 // 入力回数（予想回数）
 let kaisu = 0;
@@ -18,5 +18,23 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-
-}
+    kaisu=kaisu+1;
+    console.log(kaisu+'回目の予想:')
+    if (kaisu<=4) {
+        if(kaisu==3) {
+            console.log('まちがい．残念でした答えは4です．');
+        }
+        if(hantei==4) {
+            console.log('正解です．おめでとう!');
+        }
+        if(hantei>4) {
+            console.log('まちがい．答えはもっと大きいですよ');
+        }
+        if(hantei<4) {
+            console.log('まちがい．答えはもっと小さいですよ');
+        }
+    } else {
+        console.log('答えは4でした．すでにゲームは終わっています');
+    }
+    
+} 
