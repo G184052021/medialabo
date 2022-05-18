@@ -19,22 +19,23 @@ function hantei() {
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
     kaisu=kaisu+1;
-    console.log(kaisu+'回目の予想:')
+    console.log(kaisu+'回目の予想:'+yoso);
     if (kaisu<=4) {
         if(kaisu==3) {
-            console.log('まちがい．残念でした答えは4です．');
+            console.log('まちがい．残念でした答えは'+kodai+'です．');
         }
-        if(hantei==4) {
+        if(kodai=yoso) {
             console.log('正解です．おめでとう!');
+            kaisu=kaisu+4;
         }
-        if(hantei>4) {
+        if(kodai>yoso) {
             console.log('まちがい．答えはもっと大きいですよ');
         }
-        if(hantei<4) {
+        if(kodai<yoso) {
             console.log('まちがい．答えはもっと小さいですよ');
         }
     } else {
-        console.log('答えは4でした．すでにゲームは終わっています');
+        console.log('答えは'+kodai+'でした．すでにゲームは終わっています');
     }
     
 } 
