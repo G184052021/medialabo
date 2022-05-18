@@ -1,0 +1,12 @@
+li {
+    font-size: 10pt;
+}
+
+p#definition {
+    color: pink;
+}
+
+.orangeUnderline {
+  color: orange;
+  text-decoration: green wavy underline;
+}
