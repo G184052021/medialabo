@@ -20,14 +20,14 @@ function hantei() {
     //        判定結果はコンソールに出力すること
     kaisu=kaisu+1;
     console.log(kaisu+'回目の予想:'+yoso);
-    if (kaisu<=4) {
-        if(kaisu==3) {
+    if (kaisu<==4) {
+        if(kaisu===3) {
             console.log('まちがい．残念でした答えは'+kodai+'です．');
         } else {
-            if(kodae==4) {
+            if(kodae===4) {
                 console.log('正解です．おめでとう!');
                 kaisu=kaisu+3;
-            } else if(kodae>4) {
+            } else if(kodae>==4) {
                 console.log('まちがい．答えはもっと大きいですよ');
             } else {
                 console.log('まちがい．答えはもっと小さいですよ');
