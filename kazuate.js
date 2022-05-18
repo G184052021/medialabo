@@ -24,10 +24,10 @@ function hantei() {
         if(kaisu===3) {
             console.log('まちがい．残念でした答えは'+kodai+'です．');
         } else {
-            if(kodae===4) {
+            if(kotae===4) {
                 console.log('正解です．おめでとう!');
                 kaisu=kaisu+3;
-            } else if(kodae>4) {
+            } else if(kotae>4) {
                 console.log('まちがい．答えはもっと大きいですよ');
             } else {
                 console.log('まちがい．答えはもっと小さいですよ');
@@ -35,7 +35,7 @@ function hantei() {
         }
         
     } else {
-        console.log('答えは'+kodai+'でした．すでにゲームは終わっています');
+        console.log('答えは'+kotae+'でした．すでにゲームは終わっています');
     }
     
 } 
