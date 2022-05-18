@@ -1,6 +1,6 @@
 // 答え
 let kotae = Math.floor(Math.random()*10) + 1;
-console.log('答え: (デバッグ用)' + kotae);      // デバッグ用
+console.log('答え(デバッグ用): ' + kotae);      // デバッグ用
 
 // 入力回数（予想回数）
 let kaisu = 0;
@@ -24,14 +24,14 @@ function hantei() {
         if(kaisu==3) {
             console.log('まちがい．残念でした答えは'+kodai+'です．');
         }
-        if(kodai==4) {
+        if(kodae=yoso) {
             console.log('正解です．おめでとう!');
             kaisu=kaisu+3;
         }
-        if(kodai>4) {
+        if(kodae>4) {
             console.log('まちがい．答えはもっと大きいですよ');
         }
-        if(kodai<4) {
+        if(kodae<4) {
             console.log('まちがい．答えはもっと小さいですよ');
         }
     } else {
