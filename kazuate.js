@@ -26,7 +26,7 @@ function hantei() {
         }
         if(kodai=yoso) {
             console.log('正解です．おめでとう!');
-            kaisu=kaisu+4;
+            kaisu=kaisu+3;
         }
         if(kodai>yoso) {
             console.log('まちがい．答えはもっと大きいですよ');
