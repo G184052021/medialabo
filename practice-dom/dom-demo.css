@@ -10,3 +10,7 @@ p#definition {
   color: orange;
   text-decoration: green wavy underline;
 }
+h1 {
+  font-size: 10pt;
+  color: blue;
+}
