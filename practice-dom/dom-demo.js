@@ -39,5 +39,6 @@ ul.insertAdjacentElement('beforeend',li);
 
 let h2s=document.querySelectorAll('h2');
 for (let h2 of h2s) {
+    let h2=document.querySelector('h1');
     h2.style.backgroundColor="palegreen";
 }
