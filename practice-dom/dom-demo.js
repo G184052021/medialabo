@@ -10,5 +10,5 @@ li.textContent = 'ヨーロッパ大陸';
 ul.insertAdjacentElement('beforeend', li);
 let h2s=document.querySelectorAll('h2');
 for (let h2 of h2s) {
-    background-color:palegreen;
+    background-color=palegreen;
 }
