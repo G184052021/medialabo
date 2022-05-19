@@ -36,8 +36,3 @@ let li=document.createElement('li');
 li.textContent=o;
 ul.insertAdjacentElement('beforeend',li);
 }
-let h2s=document.querySelectorAll('h2');
-for (let h2 of h2s) {
-    let h2=document.querySelectorAll('h2');
-    h2.style.backgroundColor="palegreen";
-}
