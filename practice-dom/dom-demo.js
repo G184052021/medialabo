@@ -36,8 +36,14 @@ let li=document.createElement('li');
 li.textContent=o;
 ul.insertAdjacentElement('beforeend',li);
 }
-let h2s=document.querySelectorAll('h2');
+// すべての h2 要素を検索する（次の行を完成させる）
+let h2s =document.querySelectorAll('h2');                  ;
+
+// h2 要素に対して繰り返す
 for (let h2 of h2s) {
-    let h2=document.querySelectorAll('h2');
-    h2.style.backgroundColor="palegreen";
+    h2=document.createElement('h2');
+    h2.style.backgroundColor='palegreen';
+  // h2 の背景色を 'palegreen' に変更する
+  //   (次の行を書く)
+
 }
