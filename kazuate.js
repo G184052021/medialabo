@@ -4,7 +4,7 @@ console.log('答え(デバッグ用): ' + kotae);      // デバッグ用
 
 // 入力回数（予想回数）
 let kaisu = 0;
-
+let dp = document.querySelector('div#resule');
 // 予想を4回実行する
 // 将来: ボタンを押したら， hantei() を呼び出すように修正する
 hantei();
@@ -36,3 +36,4 @@ function hantei() {
     }
     
 } 
+dp.insertAdjacentElement('beforeend', hantei);
