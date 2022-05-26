@@ -18,7 +18,7 @@ function changeH1ColorRed() {
 	h1.style.color = 'blue';
 }
 
-let b2=document.querySelector('button#rendom');
+let b2=document.querySelector('button#random');
 b2.addEventListener('click',changeBackgroundColorRandom);
 
 function changeBackgroundColorRandom() {
