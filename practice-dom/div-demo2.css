@@ -1,6 +1,6 @@
 div#placeholder {
 	display: grid; 
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px 250px;
     width: 400px;
 }
@@ -9,11 +9,9 @@ div.faceAndName {
 	border: 1px solid #efefef;
 }
 
-div.faceAndName p {
-	text-align: center;
-}
+
 
 div.faceAndName img {
 	display: block;
-	width: 100%;
+	width: 50%;
 }
