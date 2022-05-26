@@ -30,4 +30,4 @@ function hantei() {
     
 } 
 let s=document.querySelector('div#result');
-s.textContent=hantei;
+s.textContent=hantei();
