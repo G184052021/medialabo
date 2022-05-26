@@ -32,3 +32,6 @@ d.textContent = kaisu;
 
 let s = document.querySelector('span#yoso');
 s.textContent = yoso;
+
+let ds = document.querySelector('result');
+ds.textContent = hantei;
