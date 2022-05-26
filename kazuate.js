@@ -4,18 +4,17 @@ console.log('答え(デバッグ用): ' + kotae);      // デバッグ用
 
 // 入力回数（予想回数）
 let kaisu = 1;
-let yoso = 4;
+
 // 予想を4回実行する
 // 将来: ボタンを押したら， hantei() を呼び出すように修正する
 hantei();
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-           // 第5回課題:テキストボックスの数値をここに代入
+    let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-    
     
      if(kotae===4) {
          console.log('正解です．おめでとう!');
@@ -32,6 +31,3 @@ d.textContent = kaisu;
 
 let s = document.querySelector('span#yoso');
 s.textContent = yoso;
-
-let ds = document.querySelector('result');
-ds.textContent = hantei;
