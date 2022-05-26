@@ -18,7 +18,7 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-    
+    console.log(kaisu+'回目の予想:'+yoso);
      if(kotae===yoso) {
          console.log('正解です．おめでとう!');
         } else if(kotae>yoso) {
