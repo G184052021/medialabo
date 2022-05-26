@@ -19,7 +19,7 @@ function hantei() {
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
     console.log(kaisu+'回目の予想:'+yoso);
-     if(kotae=yoso) {
+     if(kotae==yoso) {
          console.log('正解です．おめでとう!');
         } else if(kotae>yoso) {
             console.log('まちがい．答えはもっと大きいですよ');
