@@ -4,13 +4,18 @@
         <meta charset="utf-8">
         <title>世界の天気 </title>
         <link rel="stylesheet" href="project.css">
+        <!--<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>-->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="weather.js" defer></script>
     </head>
     <body>
-        <h1>検索キー</h1>
-        <d>検索キーは id （都市のID）1つだけです。</d>
-        <d>都市のIDの取りうる値:</d>
-        <ul>
+        <header>
+            <h1>世界の天気</h1>
+        </header>
+        <h2>検索キー</h2>
+        <p class="special">検索キーは id （都市のID）1つだけです。</p>
+        <p>都市のIDの取りうる値:</p>
+        <ul class="id">
             <li>360630 ... Cairo カイロ （エジプト）</li>
             <li>524901 ... Moscow モスクワ （ロシア）</li>
             <li>993800 ... Johannesburg ヨハネスブルク （南アフリカ）</li>
@@ -24,5 +29,22 @@
             <li>5128581 ... New York ニューヨーク （アメリカ合衆国）</li>
             <li>5368361 ... Los Angeles ロサンゼルス （アメリカ合衆国）</li>
         </ul>
+        <h3>
+            <label for="toshi">都市のID:</label>
+            <input sype="number" name="toshi" id="toshi" size="10">
+            <button id="kensaku">検索</button>
+        </h3>
+        
+        <h4 class="target">
+            <p id="result1"></p>
+            <p id="result2"></p>
+            <p id="result3"></p>
+            <p id="result4"></p>
+            <p id="result5"></p>
+            <p id="result6"></p>
+        </h4>
+        <footer>
+            
+        </footer>
     </body>
 </html> 

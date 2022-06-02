@@ -1,9 +1,28 @@
 html {
     font-family: 'Helvetica neue', Arial, 'sans serif';
-    font-size: 10px;
+    font-size: 15px;
+    background-color: beige;
   }
-  
   body {
-    width: 80em;
+    width: 450px;
     margin: 0 auto;
+  }
+  h4.target {
+    background-color: aquamarine;
+    border: 5px dashed cornflowerblue;
+    font-size:15px;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    padding: 5px;
+  }
+  p.special {
+    color: brown;
+  }
+  ul.id {
+    font-size: 10px;
+    color: darkblue;
+  }
+  header, footer {
+    background-color: blanchedalmond;
   }
